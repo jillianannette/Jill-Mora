@@ -1,0 +1,55 @@
+body {
+	font-family: 'Nunito Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    padding-top: 54px;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+img {
+	width: 100%;
+}
+
+.navbar {
+	text-transform: uppercase;
+}
+
+.container {
+	max-width: 900px;
+}
+
+.intro p {
+	display: inline;
+}
+
+.lead {
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+.info {
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+a {
+    color: #148F77;
+}
+
+a:hover {
+	color: #17A589;
+}
+
+.footer {
+	display: inline;
+}
+
+.footer img {
+	width: 150px !important;
+}
+
+ @media (min-width: 992px) {
+	body {
+          padding-top: 56px;
+    }
+ }
